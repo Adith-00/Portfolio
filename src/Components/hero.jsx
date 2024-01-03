@@ -5,7 +5,7 @@ import "../Assets/Css/Hero/Hero.css"
 const Hero=()=>{
 
     return(
-        <div className="hero" id="Home">
+        <div className="hero wrapper" id="Home">
             <div className="left">
                 <h1>
                     Hai,<br/>
