@@ -1,0 +1,78 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .Intro{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            color: #42446E;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52px; /* 123.81% */
+            letter-spacing: -0.4px;
+        }
+        p{
+            max-width: 934px;
+            object-fit: contain;
+            color: #666;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 26px; /* 144.444% */
+
+        }
+    }
+    .Education{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .title{
+             display: flex;
+             gap: 30px;
+            color: #42446E;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52px; /* 123.81% */
+            letter-spacing: -0.4px;
+           
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .course{
+                display: flex;
+                gap: 30px;
+               color: #565762;
+               font-size: 30px;
+               font-style: normal;
+               font-weight: 500;
+               line-height: 52px; /* 123.81% */
+               letter-spacing: -0.4px;
+               span{
+                   font-size:15px ;
+                   color: rgb(3, 199, 19);
+                  
+               }
+            }
+            p{
+               max-width:  700px;
+                color: #A7A7A7;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 233.333% */
+                letter-spacing: 1px;
+                display: flex;
+                justify-content: space-between;
+            }
+           
+           }
+    }
+}

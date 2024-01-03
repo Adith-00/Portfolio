@@ -1,0 +1,57 @@
+// ContactForm.scss
+
+.contact-form-container {
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+    h2 {
+        color: #42446E;
+        text-align: left;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .contactLinks{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 30px;
+        .Links{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                color: #42446E;
+                text-align: left;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                span{
+                    display: flex;
+                    width: 25px;
+                    height: 25px;
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
+                }
+            }
+            a{
+                p{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+    
+  
+  
+  }
+  

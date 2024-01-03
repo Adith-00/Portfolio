@@ -1,0 +1,114 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    .Title{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            color: #42446E;
+            text-align: center;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px; /* 54.167% */
+        }
+        p{
+            color:  #666;
+            text-align: center;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 81.25% */
+        }
+    }
+    .projectSection{
+        display: flex;
+        gap: 30px;
+        width: 90%;
+        align-items:center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .projectcard{
+            display: flex;
+            flex-direction:column ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);            
+            max-width: 300px;
+            max-height: 550px;
+            overflow: hidden;
+            border-radius: 10px;
+            h2{
+                width: fit-content;
+                height: 28%;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .projectinfo{
+              padding: 6px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              gap: 10px;
+              padding: 25px;
+                .title{
+                    color: #000;
+                    text-align: left;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 26px; 
+                }
+                .info{
+                    color: #666;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 26px;
+                }
+                .stack{
+                    color: #42446E;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 26px;
+                    span{
+                        font-weight: 400;
+                    }
+                }
+                .link{
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color:black;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 26px; 
+                        text-decoration-line: underline;
+                        cursor:pointer;
+                        gap: 5px;
+                        i{
+                            display: flex;
+                            width: 18px;
+                            height: 18px;
+                            img{
+                                width: 100%;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+           
+        }
+
+
+    }
+}
