@@ -1,4 +1,4 @@
-// ContactForm.scss
+
 
 .contact-form-container {
      display: flex;
@@ -50,8 +50,48 @@
             }
         }
     }
-    
-  
-  
   }
+  @media screen and (max-width: 1160px) {
+    .contact-form-container{
+        h2{
+            font-size: 30px;
+        }
+        .contactLinks{
+            .Links{
+                h2{
+                    font-size: 19px;
+                }
+                a{
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 355px) {
+    .contact-form-container{
+        h2{
+            font-size: 25px;
+        }
+        .contactLinks{
+            gap: 20px;
+            .Links{
+                h2{
+                    font-size: 13px;
+                    span{
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                a{
+                    p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
   

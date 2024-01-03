@@ -5,7 +5,6 @@
   z-index: 1;
   background-color: white;
   justify-content: space-between;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: fixed;
 }
 .header h1 {
@@ -37,12 +36,13 @@
   align-items: center;
   justify-content: center;
 }
-.header .right P {
+.header .right .options {
   color: rgb(102, 102, 102);
   font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
 }
-.header .right P:hover {
+.header .right .options:hover {
   background: linear-gradient(to right, rgb(255, 34, 34), #0dcfff 33%, #f2c707);
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -68,4 +68,66 @@
 .header .right span img {
   width: 100%;
   display: block;
+}
+.header .right .hamburger {
+  display: none;
+  gap: 15px;
+  flex-direction: column;
+  align-items: baseline;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header .right .hamburger .Hamoption {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 170px;
+}
+.header .right .hamburger .Hamoption p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1d3fc8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 903px) {
+  .header h1 {
+    font-size: 25px;
+  }
+  .header .right {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .header h1 {
+    font-size: 20px;
+  }
+  .header .right {
+    gap: 10px;
+  }
+  .header .right .options {
+    display: none;
+  }
+  .header .right .hamburger {
+    display: flex;
+  }
+}
+@media screen and (max-width: 300px) {
+  .header {
+    padding: 10px 10px;
+    justify-content: unset;
+    gap: 10px;
+  }
+  .header h1 {
+    font-size: 15px;
+  }
+  .header .right {
+    gap: 10px;
+  }
+  .header .right .options {
+    display: none;
+  }
+  .header .right .hamburger {
+    display: flex;
+  }
 }/*# sourceMappingURL=Header.css.map */

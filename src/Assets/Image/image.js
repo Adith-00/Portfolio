@@ -24,7 +24,11 @@ import wibittz from "./card-2.png"
 import patch from "./card1.png"
 import Todo1 from "./chrome_AOofOTOKZf.png"
 import todo2 from "./chrome_fdzs7ERsZj.png"
+import menu from "./bars-solid.svg"
+import resume from "./sheet-plastic-solid.svg"
 export {
+    menu,
+    resume,
     twitter,
     LinkedIn,
     Git,

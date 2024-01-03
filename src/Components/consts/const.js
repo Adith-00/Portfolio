@@ -78,7 +78,7 @@ export const ProjectDetails=[
         Title:"E-Commerce Website",
         About:"Built dynamic storefront for seamless user experience, utilizing React components, state management, and API interactions for product listings, cart functionality, and checkout process",
         Stack:["Reactjs","Redux","JavaScript","Scss","RestApi","Firebase"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/React-Ecommerce",
         previewLink:"",
         image:Ecommerce
     },
@@ -87,7 +87,7 @@ export const ProjectDetails=[
         Title:"OTT-Platform Clone",
         About:"Replicated some key features of a popular streaming platform, demonstrating React's ability to handle complex UIs, and component management.",
         Stack:["Reactjs",,"JavaScript","Scss","RestApi"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/netflixclone",
         previewLink:"",
         image:Netflix
     },
@@ -96,7 +96,7 @@ export const ProjectDetails=[
         Title:"Bitbucket Website Design",
         About:"The Bitbucket Website Redesign project highlights my expertise in HTML and Sass, offering a robust structure and polished styling.",
         Stack:["Html","Scss"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/Bitbucket-Website",
         previewLink:"",
         image:Bitbucket
     },
@@ -106,7 +106,7 @@ export const ProjectDetails=[
         About:" The Wibitz website redesign showcases my mastery of HTML and Sass, delivering a solid framework and sleek visual design. ",
         Stack:["Html","Scss"],
         gitLink:"",
-        previewLink:"",
+        previewLink:"https://github.com/Adith-00/wibitz",
         image:wibittz
     },
     {
@@ -114,7 +114,7 @@ export const ProjectDetails=[
         Title:" Patch Website Design",
         About:"The Patch Website Design project demonstrates my skills in combining HTML for structuring and Css for styling. The result is a visually stunning and responsive platform with elegant design elements.",
         Stack:["Html","css"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/patch-clone",
         previewLink:"",
         image:patch
     },
@@ -123,7 +123,7 @@ export const ProjectDetails=[
         Title:"To-do App (React)",
         About:"Crafted a React-based todo app with SCSS for seamless task management, empowering users to effortlessly add, edit, delete, and mark tasks as complete",
         Stack:["Reactjs","Scss","JavaScript"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/recat-todo",
         previewLink:"",
         image:Todo1
     },
@@ -132,7 +132,7 @@ export const ProjectDetails=[
         Title:"To-do App (Html)",
         About:" To-Do App highlights my web development skills using HTML, Sass, and Vanilla JavaScript. This streamlined platform offers efficient task management, utilizing Sass for an attractive interface and pure JavaScript for dynamic features like real-time updates. ",
         Stack:["Html","Scss","JavaScript"],
-        gitLink:"",
+        gitLink:"https://github.com/Adith-00/Vanillajs-To-do-App",
         previewLink:"",
         image:todo2
     }

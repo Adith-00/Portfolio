@@ -13,8 +13,8 @@ const Projects=()=>{
             </div>
             <div className="projectSection">
                 {ProjectDetails.map((item)=>{
-                    const {id,Title,About, Stack,image}=item
-                    return<Projectcard Title={Title} About={About} stack={Stack} cardimage={image}/>
+                    const {id,Title,About, Stack,image,gitLink}=item
+                    return<Projectcard Title={Title} About={About} stack={Stack} cardimage={image} gitLink={gitLink}/>
                 })}
             </div>
         </div>

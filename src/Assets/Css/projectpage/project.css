@@ -91,7 +91,7 @@
   color: #42446E;
   justify-content: flex-start;
   align-self: flex-start;
-  width: 30%;
+  width: 34%;
   font-size: 16px;
   font-style: normal;
   font-weight: 580;
@@ -137,4 +137,44 @@
 .Projects .projectSection .projectcard .projectinfo .link p i img {
   width: 100%;
   display: block;
+}
+
+@media screen and (max-width: 1160px) {
+  .Projects .Title h2 {
+    font-size: 35px;
+  }
+  .Projects .Title p {
+    font-size: 16px;
+  }
+  .Projects .projectSection {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 1028px) {
+  .Projects .projectSection {
+    width: 100%;
+  }
+  .Projects .projectSection .projectcard {
+    min-width: 320px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .Projects .projectSection {
+    width: 100%;
+  }
+  .Projects .projectSection .projectcard {
+    min-width: 250px;
+  }
+  .Projects .projectSection .projectcard .projectinfo .info {
+    font-size: 12px;
+  }
+  .Projects .projectSection .projectcard .projectinfo .stack .title {
+    font-size: 12px;
+  }
+  .Projects .projectSection .projectcard .projectinfo .stack .items p {
+    font-size: 11px;
+  }
+  .Projects .projectSection .projectcard .projectinfo .link p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=project.css.map */

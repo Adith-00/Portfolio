@@ -1,7 +1,7 @@
 import React from "react";
 import { Git, acnchorlink,  } from "../Assets/Image/image";
 
-const Projectcard = ({Title,About,stack,cardimage}) => {
+const Projectcard = ({Title,About,stack,cardimage,gitLink}) => {
   return (
     <div className="projectcard">
       <h2>
@@ -30,12 +30,14 @@ const Projectcard = ({Title,About,stack,cardimage}) => {
             </i>
             Link Preview
           </p>{" "}
+          <a href={gitLink}>
           <p>
             <i>
               <img src={Git} alt="git" />
             </i>
             View code
           </p>
+          </a>
         </div>
       </div>
     </div>

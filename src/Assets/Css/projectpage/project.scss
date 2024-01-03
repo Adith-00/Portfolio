@@ -88,7 +88,7 @@
                     color: #42446E;
                     justify-content: flex-start;
                     align-self: flex-start;
-                    width: 30%;
+                    width: 34%;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 580;
@@ -144,5 +144,62 @@
         }
 
 
+    }
+}
+@media screen and (max-width: 1160px) {
+    .Projects{
+        .Title{
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .projectSection{
+            gap: 15px;
+        }
+    }
+}
+@media screen and (max-width: 1028px) {
+    .Projects{
+        
+        .projectSection{
+            width: 100%;
+           .projectcard{
+            min-width: 320px;
+           }
+        }
+    }
+}
+@media screen and (max-width: 355px) {
+    .Projects{
+        
+        .projectSection{
+            width: 100%;
+           .projectcard{
+            min-width: 250px;
+            .projectinfo{
+                .info{
+                    font-size: 12px;
+                }
+                .stack{
+                    .title{
+                        font-size: 12px;
+                    }
+                    .items{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .link{
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+           }
+        }
     }
 }

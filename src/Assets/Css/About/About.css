@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 40px;
   justify-content: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .about .Intro {
   display: flex;
@@ -12,7 +11,7 @@
 }
 .about .Intro h2 {
   color: #42446E;
-  font-size: 42px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px; /* 123.81% */
@@ -37,7 +36,7 @@
   display: flex;
   gap: 30px;
   color: #42446E;
-  font-size: 42px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px; /* 123.81% */
@@ -72,4 +71,54 @@
   letter-spacing: 1px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1160px) {
+  .about {
+    gap: 30px;
+  }
+  .about .Intro h2 {
+    font-size: 30px;
+  }
+  .about .Intro p {
+    font-size: 15px;
+  }
+  .about .Education .title {
+    font-size: 30px;
+  }
+  .about .Education .info .course {
+    font-size: 23px;
+  }
+  .about .Education .info p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .about .Education .info .course {
+    flex-wrap: wrap;
+    font-size: 18px;
+    line-height: 20px;
+    gap: 5px;
+  }
+  .about .Education .info .course span {
+    font-size: 9px;
+  }
+  .about .Education .info p {
+    font-size: 12px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 355px) {
+  .about {
+    gap: 30px;
+  }
+  .about .Intro h2 {
+    font-size: 25px;
+  }
+  .about .Intro p {
+    font-size: 15px;
+  }
+  .about .Education .title {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=About.css.map */

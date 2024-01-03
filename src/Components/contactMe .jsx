@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import "../Assets/Css/contact/contact .css";
-import { LinkedIn, Whatsapp, gmail } from '../Assets/Image/image';
+import resumepdf from "../Assets/Adith Sukumar KA Cv.pdf"
+import { LinkedIn, Whatsapp, gmail, resume } from '../Assets/Image/image';
 
 const ContactForm = () => {
   
@@ -23,6 +24,9 @@ const ContactForm = () => {
         <div className='Links'>
             <h2><span><img src={Whatsapp} alt="Whatsapp" /></span>Whatsapp</h2>
             <a href=" https://wa.me/7592922246"><p>7592922246</p></a>
+        </div>
+        <div className='Links'>
+           <a href={resumepdf} download><h2><span><img src={resume} alt="resume" /></span>Download Resume</h2></a>
         </div>
 
      </div>

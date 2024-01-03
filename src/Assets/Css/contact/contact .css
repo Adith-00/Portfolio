@@ -46,4 +46,34 @@
 .contact-form-container .contactLinks .Links a p {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 1160px) {
+  .contact-form-container h2 {
+    font-size: 30px;
+  }
+  .contact-form-container .contactLinks .Links h2 {
+    font-size: 19px;
+  }
+  .contact-form-container .contactLinks .Links a p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .contact-form-container h2 {
+    font-size: 25px;
+  }
+  .contact-form-container .contactLinks {
+    gap: 20px;
+  }
+  .contact-form-container .contactLinks .Links h2 {
+    font-size: 13px;
+  }
+  .contact-form-container .contactLinks .Links h2 span {
+    width: 15px;
+    height: 15px;
+  }
+  .contact-form-container .contactLinks .Links a p {
+    font-size: 11px;
+  }
 }/*# sourceMappingURL=contact .css.map */
