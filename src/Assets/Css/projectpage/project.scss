@@ -34,14 +34,23 @@
         .projectcard{
             display: flex;
             flex-direction:column ;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);            
-            max-width: 300px;
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);            
+            max-width: 310px;
+            min-width: 400px;
+            min-height: 400px;
             max-height: 550px;
             overflow: hidden;
             border-radius: 10px;
             h2{
                 width: fit-content;
                 height: 28%;
+                &:hover{
+                   
+                    img{
+                        scale: 1.1;
+                        transition: 0.2s ease-in;
+                    }
+                }
                 img{
                     width: 100%;
                     display: block;
@@ -52,6 +61,7 @@
               display: flex;
               flex-direction: column;
               justify-content: space-between;
+              min-height: 350px;
               gap: 10px;
               padding: 25px;
                 .title{
@@ -70,14 +80,38 @@
                     line-height: 26px;
                 }
                 .stack{
+                    display: flex;
+                    gap: 3px;
+                    align-items: center;
+                    width:300px;
+                    .title{
                     color: #42446E;
+                    justify-content: flex-start;
+                    align-self: flex-start;
+                    width: 30%;
                     font-size: 16px;
                     font-style: normal;
-                    font-weight: 600;
+                    font-weight: 580;
                     line-height: 26px;
-                    span{
-                        font-weight: 400;
                     }
+                    
+                   .items{
+                    display: flex;
+                    align-self: flex-start;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    overflow-wrap: break-word;
+                    width: 54%;
+                    p{
+                        color: #42446E;
+                       font-size: 14px;
+                       font-style: normal;
+                       font-weight: 400;
+                       line-height: 26px
+                    }
+                    
+                   }
+                    
                 }
                 .link{
                     display: flex;

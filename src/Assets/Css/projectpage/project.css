@@ -36,8 +36,10 @@
 .Projects .projectSection .projectcard {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: 300px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  max-width: 310px;
+  min-width: 400px;
+  min-height: 400px;
   max-height: 550px;
   overflow: hidden;
   border-radius: 10px;
@@ -46,6 +48,10 @@
   width: -moz-fit-content;
   width: fit-content;
   height: 28%;
+}
+.Projects .projectSection .projectcard h2:hover img {
+  scale: 1.1;
+  transition: 0.2s ease-in;
 }
 .Projects .projectSection .projectcard h2 img {
   width: 100%;
@@ -56,6 +62,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 350px;
   gap: 10px;
   padding: 25px;
 }
@@ -75,14 +82,35 @@
   line-height: 26px;
 }
 .Projects .projectSection .projectcard .projectinfo .stack {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  width: 300px;
+}
+.Projects .projectSection .projectcard .projectinfo .stack .title {
   color: #42446E;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 30%;
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 580;
   line-height: 26px;
 }
-.Projects .projectSection .projectcard .projectinfo .stack span {
+.Projects .projectSection .projectcard .projectinfo .stack .items {
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  width: 54%;
+}
+.Projects .projectSection .projectcard .projectinfo .stack .items p {
+  color: #42446E;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 26px;
 }
 .Projects .projectSection .projectcard .projectinfo .link {
   display: flex;

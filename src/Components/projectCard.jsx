@@ -1,23 +1,28 @@
 import React from "react";
-import { Git, acnchorlink, cardimage } from "../Assets/Image/image";
+import { Git, acnchorlink,  } from "../Assets/Image/image";
 
-const Projectcard = () => {
+const Projectcard = ({Title,About,stack,cardimage}) => {
   return (
     <div className="projectcard">
       <h2>
         <img src={cardimage} alt="project" />
       </h2>
       <div className="projectinfo">
-        <p className="title">Lorem ipsum dolor sit.</p>
+        <p className="title">{Title}.</p>
         <p className="info">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-          velit voluptatibus veniam ullam doloremque facilis, quasi nemo autem
-          nam reprehenderit!
+          {About}
         </p>
-        <p className="stack">
-          {" "}
-          Tech Stack: <span>Html,css,js</span>
-        </p>
+        <div className="stack">
+          
+          <p className="title">Tech Stack:</p> 
+          <div className="items">
+          {stack.map((item,index)=>{
+            return <p key={index}>{item},</p>
+
+          })}
+          </div>
+          
+        </div>
         <div className="link">
           <p>
             <i>

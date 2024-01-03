@@ -7,7 +7,7 @@ const ContactForm = () => {
   
 
   return (
-    <div className="contact-form-container wrapper">
+    <div className="contact-form-container wrapper" id='Contact'>
       <h2>Contact Me</h2>
 
      <div className="contactLinks">

@@ -17,6 +17,13 @@ import cardimage from"./img1.jpg"
 import acnchorlink from "./akar-icons_link-chain.svg"
 import Whatsapp from"./whatsapp.svg"
 import gmail from "./envelope-solid.svg"
+import Ecommerce from "./chrome_uITr2egySJ.png"
+import Netflix from "./chrome_BI4rJYdWvv.jpg"
+import Bitbucket from "./card-3.png"
+import wibittz from "./card-2.png"
+import patch from "./card1.png"
+import Todo1 from "./chrome_AOofOTOKZf.png"
+import todo2 from "./chrome_fdzs7ERsZj.png"
 export {
     twitter,
     LinkedIn,
@@ -36,6 +43,13 @@ export {
     cardimage,
     acnchorlink,
     Whatsapp,
-    gmail
+    gmail,
+    Ecommerce,
+    Netflix,
+    Bitbucket,
+    wibittz,
+    patch,
+    todo2,
+    Todo1
 
 }

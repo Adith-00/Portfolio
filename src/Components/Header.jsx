@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Git, LinkedIn, twitter } from "../Assets/Image/image";
 import { HeaderOptions } from "./consts/const";
 import "../Assets/Css/header/Header.css"
@@ -13,7 +14,7 @@ const Header=()=>{
             <div className="right">
                 {HeaderOptions.map((item)=>{
                     const{text}=item
-                    return <p>{text}</p> 
+                    return <Link to={text} spy={true}  smooth={true}  offset={-90} ><p>{text}</p> </Link> 
                 })}
                 <span><img src={twitter} alt="twittwe" /></span>
                 <span><img src={LinkedIn} alt="twittwe" /></span>
